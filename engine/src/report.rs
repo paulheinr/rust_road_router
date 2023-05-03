@@ -427,5 +427,7 @@ pub fn enable_reporting(program: &str) -> ReportingGuard {
     ReportingGuard(())
 }
 
+#[allow(unused_imports)]
+#[allow(unused_variables)]
 pub mod benchmark;
 pub use benchmark::*;
